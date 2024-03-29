@@ -8,7 +8,7 @@ app.get('/', (req, res)=> {
   res.send('Hello world')
 })
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","http://localhost:3000")
+  res.setHeader("Access-Control-Allow-Origin","https://mernback-em0b.onrender.com/")
   res.header("Access-Control-Allow-Headers",
   "Orgin,X-Requested-With,Content-Type,Accept")
   next()
